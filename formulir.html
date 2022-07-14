@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>🍉FORM</title>
+	<link rel="stylesheet" type="text/css" href="vit.css">
+</head>
+<body background="awan.jpg">
+	<br><br>
+	<marquee behavior=alternate style=" font-size:15px; color: white";> Vitri Septia Kirani || 2100018059 || Pemograman Web - A || Dosen Taufik ismail || Prodi Informatika S1 2021 || Universitas Ahmad Dahlan </marquee><br><br>
+	<center>
+		<div id="tampl">
+			<img src="logo.jpg" width="55px" height="55px" align="left">
+			<center>ISI KEHADIRAN</center><br><br>
+
+			<form name="form1" method="post" action="prosesform.php">
+				<table width="50%" border="0" align="center">
+					<tr>
+						<td>Nama Lengkap</td>
+						<td><input type="text" name="nama" id="nama"></td>
+					</tr>
+					<tr>
+						<td>NIM</td>
+						<td><input type="text" name="nim" id="nim"></td>
+					</tr>
+					<tr>
+						<td>Prodi</td>
+						<td>
+							<select name="prodi" id="prodi">
+								<option>Informatika</option>
+								<option>Teknik Industri</option>
+								<option>Teknik Pangan</option>
+								<option>Teknik Mesin</option>
+								<option>Kedokteran</option>
+								<option>Hukum</option>
+								<option>Manajemen</option>
+								<option>Matematika</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Kehadiran</td>
+						<td><input type="radio" name="kh" value="✔️">Hadir <input type="radio" name="kh" value="❌"> Tidak Hadir </td>
+					</tr>
+					<tr>
+						<td>Alasan Tidak hadir</td>
+						<td><textarea name="alasan" id="alasan"></textarea></td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>
+							<input type="submit" name="submit" value="kirim">	<input type="reset" name="submit2" value="batal">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<br><Br><Br><Br><br>
+		<div id="pilih">
+			<a href="daftarform.php">Daftar kehadiran</a>
+		</div><br><br>
+			<div id=pilih align="center"><a href=index.html> kembali ke menu awal </a></div><br>
+	</center>
+</body>
+</html>

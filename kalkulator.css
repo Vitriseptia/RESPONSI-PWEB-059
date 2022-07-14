@@ -1,0 +1,87 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+#container{
+    width: 1000px;
+    height: 50px;
+    margin: 1px auto;  
+}
+#calculator{/*tampilan kalkulator*/
+    width: 320px;
+    height: 520px;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 55px; /*bentuk tampilan kalkulator*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#result{
+    height: 120px;
+}
+#output{/*tampilan awal angka yang dimasukan*/
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#history{/*tampilan buat angka yang sudah di dimasukan */
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.number, .empty{/*warna untuk tombol angka 0-9*/
+    background-color: #eaedef;
+}
+.operator{/*warna untuk hapus semua , hapus , dan modulus*/
+    background-color:lightgrey;
+}
+.number, .operator{/*untuk bentuk cursor*/
+    cursor: pointer;
+}
+.number:active, .operator:active{/*ukuran font ketika dipencet berubah menjadi besar*/
+    font-size: 50px;
+}
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(4){/*warna untuk pembagian*/
+    font-size: 20px;
+    background-color: pink;
+}
+button:nth-child(8){/*warna untuk perkalian*/
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(12){/*warna untuk pengurangan*/
+    font-size: 20px;
+    background-color: #f08080;
+}
+button:nth-child(16){/*warna untuk tambah*/
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+button:nth-child(20){/*warna untuk sama dengan*/
+    font-size: 20px;
+    background-color: #9477af;
+}
+
+

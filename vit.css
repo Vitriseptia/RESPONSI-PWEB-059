@@ -1,0 +1,27 @@
+/*untuk tampilan*/
+#tampl {
+			  border: 1px solid;
+			  padding: 10px;
+			  box-shadow: 10px 10px #888888; /*bayangan*/
+			  width: 50%;
+			  background-image: url('../UAS-PWEB059/cba.png');
+			  border-radius: 10px;/*untuk melengkung*/
+			}
+#pilih {
+			border: 1px solid;
+			  padding: 10px;
+			  width: 25%;
+			  border-radius: 40px;/*untuk melengkung*/
+			  background-color: beige;
+			  box-shadow: 10px 10px #888888; /*bayangan*/
+			  cursor: pointer;
+		}
+#kalender {
+			  border: 1px solid;
+			  padding: 10px;
+			  box-shadow: 10px 10px skyblue; /*bayangan*/
+			  width: 30%;
+			  background-color: beige;
+			  border-radius: 10px;/*untuk melengkung*/
+			}
+/*untuk kalkulator*/
